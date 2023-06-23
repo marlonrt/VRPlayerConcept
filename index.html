@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Desafio Rocketseat #25</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+  <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="video-container">
+      <video id="video" autoplay muted loop>
+        <source src="video.mp4" type="video/mp4" />
+        Seu navegador não suporta a tag de vídeo.
+      </video>
+      <div id="video-controls">
+        <i class="material-icons icon">mic_off</i>
+        <i class="material-icons icon">videocam</i>
+        <i class="material-icons icon">volume_up</i>
+      </div>
+    </div>
+    <div id="dark-mode-toggle">
+      <i class="material-icons light-icon icon">light_mode</i>
+      <i class="material-icons dark-icon icon">dark_mode</i>
+    </div>
+    <div id="background-overlay"></div>
+    <div class="floating-bar fixed-bar">
+      <i class="material-icons icon">call_end</i>
+      <i class="material-icons icon">chat_bubble</i>
+      <i class="material-icons icon fullscreen-icon">fullscreen</i>
+      <i class="material-icons icon">settings</i>
+    </div>
+    <div class="browser-bar fixed-bar">
+      <i class="material-icons icon">arrow_back</i>
+      <i class="material-icons icon">arrow_forward</i>
+      <i class="material-icons icon">history</i>
+      <div class="search-bar">
+        <input type="text" placeholder="Pesquisar" />
+        <div class="search-icons">
+          <i class="material-icons icon">refresh</i>
+          <i class="material-icons icon">translate</i>
+        </div>
+      </div>
+      <i class="material-icons icon">add</i>
+      <i class="material-icons icon"><span class="material-symbols-outlined">
+        mood
+        </span></i>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
