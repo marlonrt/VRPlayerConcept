@@ -1,9 +1,9 @@
 
-var darkModeToggle = document.getElementById("dark-mode-toggle");
-var body = document.body;
-var backgroundOverlay = document.getElementById("background-overlay");
-var lightIcon = document.querySelector(".light-icon");
-var darkIcon = document.querySelector(".dark-icon");
+const darkModeToggle = document.getElementById("dark-mode-toggle");
+const body = document.body;
+const backgroundOverlay = document.getElementById("background-overlay");
+const lightIcon = document.querySelector(".light-icon");
+const darkIcon = document.querySelector(".dark-icon");
 
 darkModeToggle.addEventListener("click", function () {
   body.classList.toggle("dark-mode");
